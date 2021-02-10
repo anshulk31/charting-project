@@ -11,7 +11,7 @@ const LineChart = () => {
 
   useEffect(() => {
     dispatch(setMonthlySales())
-  }, [])
+  }, [dispatch])
 
   const chartData = useSelector(state => state.data)
   const error = useSelector(state => state.error)
