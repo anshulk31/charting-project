@@ -60,7 +60,7 @@ const LineChart = () => {
     ]
   }
 
-  let errorHandler = (error === true) ? <h1 style={{textAlign: 'center'}}>Data can't be loaded!</h1> : <Spinner />;
+  let errorHandler = (error === true) ? <h1 style={{textAlign:'center'}}>Data can't be loaded!</h1> : <Spinner />;
 
   return (
     <div>
